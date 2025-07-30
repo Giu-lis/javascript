@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let qntd = Number(prompt("Quantas camisetas pequenas deseja?"))
+        let pequena = qntd*10;
+        let qntdd = Number(prompt("Quantas camisetas médias você deseja?"))
+        let media = qntdd*12;
+        let qntddd = Number(prompt("Quantas camisetas grandes deseja?"))
+        let grande = qntddd*15;
+        let preço = (pequena + media) + grande;
+        let texto = "O valor final a ser pago será ";
+        let textoo = "R$";
+        let resultado = texto + preço + textoo;
+        console.log(resultado)
+        alert(resultado)
+    </script>
+</body>
+</html>
